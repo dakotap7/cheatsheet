@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+   <div>
+        <!-- Heading & Banner Image -->
+        <h1 id="title">CSS & Color</h1>
+        <!-- Heading Outline -->
+        <h1 id="shadow">CSS & Color</h1>
+        <div id= overlay style="background-color: #00000040;"></div>
+        <img id="swatches" src="Resources/images/heading.jpg" alt="paint swatches">
+    </div>
+
+    <!-- Tables -->
+    <h2>Color Formats</h2>
+    <table>
+        <thead>
+            <tr>
+                <th class="column-heading">Style</th>
+                <th class="column-heading">Format</th>
+                <th class="column-heading">Details</th>
+                <th class="column-heading">Usage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Named colors row -->
+            <tr>
+                <td class="style">Named Colors</td>
+                <td class="format">color: aqua;</td>
+                <td class="details">English words that describe colors, also called keyword colors</td>
+                <td class="usage">This is most usefal for testing and demonstration purposes, but overall it's a limited palette.</td>
+            </tr>
+            <!-- Hexidecimal row -->
+            <tr>
+                <td class="style">Hexidecimal</td>
+                <td class="format">color: #E9D758;</td>
+                <td class="details">A 6-digit hex code prefixed with # contains three 2-digit values, one for each channel (red / green / blue)</td>
+                <td class="usage">Hexidecimal values is the most common format that you'll see used.</td>
+            </tr>
+            <!-- RGB row -->
+            <tr>
+                <td class="style">RGB</td>
+                <td class="format">color: rgb(255 158 177);</td>
+                <td class="details">Numeric values that describe a mix of red, green, and blue</td>
+                <td class="usage">In web design we're primarily concerned with what web pages look like on screens, RGB is the color model we use.</td>
+            </tr>
+            <!-- HSL row -->
+            <tr>
+                <td class="style">HSL</td>
+                <td class="format">color: hsl(303 87% 73%)</td>
+                <td class="details">Numeric values that describe a mix of hue, saturation, and lightness</td>
+                <td class="usage">The HSL color model is one of the least used, but gaining traction because can be more intuitive to use when working with shades and color adjustments.</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Format Variations</h2>
+    <table>
+        <thead>
+            <tr id="title-row">
+                <th class="column-heading">Style</th>
+                <th class="column-heading">Variation Format</th>
+                <th class="column-heading">Details</th>
+            </tr>        
+        </thead>
+        <!-- Hexidecimal Variation -->
+            <tr>
+                <td class="style">Hexidecimal Shorthand</td>
+                <td class="format">color: #000;</td>
+                <td class="details">If both digits of the red, green and blue values are the same, you may use the short three-digit notation.</td>
+            </tr>
+            <!-- RGB Variation -->
+            <tr>
+                <td class="style">RGBA</td>
+                <td class="format">color: rgba(255 158 177 0.5);</td>
+                <td class="details">It's just like RGB, except with the addition of a fourth value: the alpha channel. The alpha value represents the level of transparency that the rgb color should have. It can be a value from 0 to 1 or a percentage from 0 to 100%.</td>
+            </tr>
+            <!-- HSL Variation -->
+            <tr>
+                <td class="style">HSLA</td>
+                <td class="format">color: hsla(303 87% 73% 0.75);</td>
+                <td class="details">HSLA is simply the HSL color model with the addition of an alpha channel. This works exactly the same way as the alpha channel in RGBA.</td>
+            </tr>
+    </table>
+</body>
+</html>

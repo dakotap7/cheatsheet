@@ -1,0 +1,102 @@
+ /*color guide: 
+ 2E3532 (onyx)
+ E9D758 (arylide yellow)
+ D00000 (engineering red)
+ 3F88C5 (steel blue)
+ E8AEB7 (cherry bolossom pink)  */
+
+ /* font guide:
+ Bungee Inline
+ Bungee Shade
+ Roboto */
+ 
+ /* Styling */
+body {
+    background-color: #3F88C530;
+  
+}
+
+/* Heading & Banner Styles */
+
+ div {
+    position: relative;
+ }
+
+ #overlay {
+    width: 99.20%;
+    height: auto;
+    position: absolute;
+    height: 120px;
+    padding: 6px;
+    
+ }
+
+ h1 {
+    font-family: "Bungee Inline";
+    font-size: 100px;
+    color: #E9D758;
+    display: block;
+    white-space: nowrap;
+    position: absolute;
+    z-index: auto;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    
+ }
+
+ #shadow {
+    font-family: "Bungee Outline";
+    color: #2E3532;
+    padding: 10px;
+    position: absolute;
+ }
+
+ #swatches {
+    width: 100%;
+  }
+
+ /* Table Styles */
+ h2{ 
+    font-family: Roboto, sans-serif;
+    color: #2E3532;
+    text-align: center;
+    width: 900px;
+    padding: 10px 0;
+    margin: 20px auto;
+    background-color: #3F88C590;
+
+ }
+ table {
+    font-family: Roboto, sans-serif;
+    border: #2E3532 2px solid;
+    border-collapse: collapse;
+    width: 900px;
+    height: 500px;
+    margin: 20px auto;
+
+}
+
+ td {
+    border: #2E3532 2px solid;
+    padding: 5px;
+ }
+
+ th {
+    border: #2E3532 2px solid;
+    text-transform: uppercase;
+    background-color: #E9D758;
+
+ }
+
+ .style {
+    text-align: center;
+    font-weight: bold;
+    color: #D0000095;
+    background-color: #E8AEB720;
+ }
